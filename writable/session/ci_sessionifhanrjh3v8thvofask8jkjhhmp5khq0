@@ -1,0 +1,9 @@
+__ci_last_regenerate|i:1657964202;_ci_previous_url|s:42:"http://localhost:8080/tatausaha/berkasguru";error|s:239:"<!-- DEBUG-VIEW START 1 SYSTEMPATH/Validation/Views/list.php -->
+	<div class="errors" role="alert">
+		<ul>
+					<li>Anda Harus Mengunggah File Berkas</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH/Validation/Views/list.php -->
+";__ci_vars|a:3:{s:5:"error";s:3:"old";s:13:"_ci_old_input";s:3:"old";s:21:"_ci_validation_errors";s:3:"old";}_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:3:{s:14:"csrf_test_name";s:32:"e8cf98e04fc921855c59f4db21f25ae7";s:7:"id_guru";s:6:"220001";s:8:"idBerkas";s:3:"102";}}_ci_validation_errors|s:65:"a:1:{s:10:"fileBerkas";s:33:"Anda Harus Mengunggah File Berkas";}";

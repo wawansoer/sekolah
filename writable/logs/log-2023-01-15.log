@@ -1,0 +1,19 @@
+CRITICAL - 2023-01-15 20:43:57 --> The original file is not a valid file.
+#0 /home/smac5537/repositories/sisfo-sekolah/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /home/smac5537/repositories/sisfo-sekolah/app/Controllers/AdminWeb.php(604): CodeIgniter\HTTP\Files\UploadedFile->move('/home/smac5537/...', '')
+#2 /home/smac5537/repositories/sisfo-sekolah/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\AdminWeb->prosestambahtendik()
+#3 /home/smac5537/repositories/sisfo-sekolah/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminWeb))
+#4 /home/smac5537/repositories/sisfo-sekolah/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/smac5537/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 20:44:05 --> The original file is not a valid file.
+#0 /home/smac5537/repositories/sisfo-sekolah/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /home/smac5537/repositories/sisfo-sekolah/app/Controllers/AdminWeb.php(604): CodeIgniter\HTTP\Files\UploadedFile->move('/home/smac5537/...', '')
+#2 /home/smac5537/repositories/sisfo-sekolah/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\AdminWeb->prosestambahtendik()
+#3 /home/smac5537/repositories/sisfo-sekolah/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminWeb))
+#4 /home/smac5537/repositories/sisfo-sekolah/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/smac5537/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-01-15 22:07:49 --> Cannot delete or update a parent row: a foreign key constraint fails (`u1672664_sekolah`.`siswa`, CONSTRAINT `siswa_FK` FOREIGN KEY (`id_kelas`) REFERENCES `kelas` (`id_kelas`))
+ERROR - 2023-01-15 22:08:38 --> Duplicate entry 'KELAS X' for key 'kelas_UN'
+ERROR - 2023-01-15 22:08:55 --> Cannot delete or update a parent row: a foreign key constraint fails (`u1672664_sekolah`.`siswa`, CONSTRAINT `siswa_FK` FOREIGN KEY (`id_kelas`) REFERENCES `kelas` (`id_kelas`))

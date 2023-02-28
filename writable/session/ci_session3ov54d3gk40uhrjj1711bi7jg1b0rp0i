@@ -1,0 +1,23 @@
+__ci_last_regenerate|i:1651031307;_ci_previous_url|s:54:"http://localhost:8080/calonsiswa/ubahData/220426210835";logged_in|s:1:"1";error|s:745:"<!-- DEBUG-VIEW START 1 SYSTEMPATH/Validation/Views/list.php -->
+	<div class="errors" role="alert">
+		<ul>
+					<li>namaLengkap Harus diisi</li>
+					<li>nisn Harus diisi</li>
+					<li>tempatLahir Harus diisi</li>
+					<li>tanggalLahir Harus diisi</li>
+					<li>jenisKelamin Harus diisi</li>
+					<li>agama Harus diisi</li>
+					<li>alamatSiswa Harus diisi</li>
+					<li>noKontak Harus diisi</li>
+					<li>sekolahAsal Harus diisi</li>
+					<li>namaWali Harus diisi</li>
+					<li>alamatWali Harus diisi</li>
+					<li>kontakOrtu Harus diisi</li>
+					<li>agamaWali Harus diisi</li>
+					<li>pekerjaanWali Harus diisi</li>
+					<li>pendapatanWali Harus diisi</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH/Validation/Views/list.php -->
+";__ci_vars|a:3:{s:5:"error";s:3:"old";s:13:"_ci_old_input";s:3:"old";s:21:"_ci_validation_errors";s:3:"old";}_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:0:{}}_ci_validation_errors|s:720:"a:15:{s:11:"namaLengkap";s:23:"namaLengkap Harus diisi";s:4:"nisn";s:16:"nisn Harus diisi";s:11:"tempatLahir";s:23:"tempatLahir Harus diisi";s:12:"tanggalLahir";s:24:"tanggalLahir Harus diisi";s:12:"jenisKelamin";s:24:"jenisKelamin Harus diisi";s:5:"agama";s:17:"agama Harus diisi";s:11:"alamatSiswa";s:23:"alamatSiswa Harus diisi";s:8:"noKontak";s:20:"noKontak Harus diisi";s:11:"sekolahAsal";s:23:"sekolahAsal Harus diisi";s:8:"namaWali";s:20:"namaWali Harus diisi";s:10:"alamatWali";s:22:"alamatWali Harus diisi";s:10:"kontakOrtu";s:22:"kontakOrtu Harus diisi";s:9:"agamaWali";s:21:"agamaWali Harus diisi";s:13:"pekerjaanWali";s:25:"pekerjaanWali Harus diisi";s:14:"pendapatanWali";s:26:"pendapatanWali Harus diisi";}";

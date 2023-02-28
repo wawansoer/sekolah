@@ -1,0 +1,31 @@
+ERROR - 2022-04-14 17:15:41 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-04-14 17:27:19 --> Trying to get property 'id' of non-object
+#0 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /app/ThirdParty/myth-auth/src/Models/UserModel.php(87): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /app/ThirdParty/myth-auth/src/Controllers/AuthController.php(185): Myth\Auth\Models\UserModel->withGroup()
+#2 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#3 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#7 {main}
+CRITICAL - 2022-04-14 17:33:35 --> Object of class Myth\Auth\Entities\User could not be converted to string
+#0 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\CalonSiswa->index()
+#1 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#5 {main}
+CRITICAL - 2022-04-14 17:34:30 --> Object of class Myth\Auth\Entities\User could not be converted to string
+#0 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\CalonSiswa->index()
+#1 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#5 {main}
+CRITICAL - 2022-04-14 17:34:31 --> Object of class Myth\Auth\Entities\User could not be converted to string
+#0 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\CalonSiswa->index()
+#1 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#5 {main}

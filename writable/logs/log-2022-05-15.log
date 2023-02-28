@@ -1,0 +1,31 @@
+CRITICAL - 2022-05-15 06:11:24 --> Invalid file: home/layout.php
+#0 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#2 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /app/Controllers/Home.php(10): view()
+#4 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#5 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#9 {main}
+CRITICAL - 2022-05-15 07:39:06 --> syntax error, unexpected 'img' (T_STRING), expecting ')'
+#0 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /app/Controllers/Home.php(10): view()
+#3 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#8 {main}
+CRITICAL - 2022-05-15 09:38:52 --> syntax error, unexpected 'img' (T_STRING), expecting ')'
+#0 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /app/Controllers/Home.php(10): view()
+#3 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#8 {main}

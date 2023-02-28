@@ -1,0 +1,48 @@
+CRITICAL - 2022-07-10 09:43:09 --> Undefined variable: det
+#0 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/app/Views/tatausaha/guru/guru.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/wawan/Doc...')
+#2 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/app/Controllers/Tatausaha.php(33): view()
+#5 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Tatausaha->guru()
+#6 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#10 {main}
+CRITICAL - 2022-07-10 09:44:50 --> Undefined variable: det
+#0 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/app/Views/tatausaha/guru/guru.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/wawan/Doc...')
+#2 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/app/Controllers/Tatausaha.php(33): view()
+#5 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Tatausaha->guru()
+#6 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#10 {main}
+CRITICAL - 2022-07-10 09:45:38 --> Undefined variable: det
+#0 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/app/Views/tatausaha/guru/guru.php(91): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/wawan/Doc...')
+#2 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/app/Controllers/Tatausaha.php(33): view()
+#5 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Tatausaha->guru()
+#6 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#10 {main}
+CRITICAL - 2022-07-10 09:47:47 --> Undefined variable: mapel
+#0 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/app/Views/tatausaha/guru/guru.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/wawan/Doc...')
+#2 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/app/Controllers/Tatausaha.php(33): view()
+#5 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Tatausaha->guru()
+#6 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/wawan/Documents/CI4/masterSekolah/SISFO SEKOLAh/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#10 {main}

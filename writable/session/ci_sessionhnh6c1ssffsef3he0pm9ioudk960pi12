@@ -1,0 +1,11 @@
+__ci_last_regenerate|i:1657771509;_ci_previous_url|s:49:"http://localhost:8080/tatausaha/ubahguru/20220004";error|s:297:"<!-- DEBUG-VIEW START 1 SYSTEMPATH/Validation/Views/list.php -->
+	<div class="errors" role="alert">
+		<ul>
+					<li>Nama Tidak Boleh Sama</li>
+					<li>NIK Tidak Boleh Sama</li>
+					<li>NIP Tidak Boleh Sama</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH/Validation/Views/list.php -->
+";__ci_vars|a:3:{s:5:"error";s:3:"old";s:13:"_ci_old_input";s:3:"old";s:21:"_ci_validation_errors";s:3:"old";}_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:15:{s:14:"csrf_test_name";s:32:"4836555c11717ca808a0a0bf880e106f";s:7:"jabatan";s:1:"1";s:4:"nama";s:10:"Test Satu ";s:3:"nik";s:14:"12830192310239";s:3:"nip";s:13:"1238012938123";s:12:"tempat_lahir";s:7:"KEndari";s:13:"tanggal_lahir";s:10:"2022-06-07";s:13:"jenis_kelamin";s:1:"1";s:5:"agama";s:5:"Islam";s:10:"pendidikan";s:1:"3";s:6:"status";s:1:"2";s:5:"mapel";s:12:"Matematika I";s:6:"alamat";s:12:"asdasdasdasd";s:3:"pos";s:5:"12341";s:6:"kontak";s:12:"681231241123";}}_ci_validation_errors|s:122:"a:3:{s:4:"nama";s:21:"Nama Tidak Boleh Sama";s:3:"nik";s:20:"NIK Tidak Boleh Sama";s:3:"nip";s:20:"NIP Tidak Boleh Sama";}";

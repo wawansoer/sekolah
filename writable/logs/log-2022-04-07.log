@@ -1,0 +1,39 @@
+ERROR - 2022-04-07 10:03:20 --> Table 'ci4.auth_tokens' doesn't exist
+CRITICAL - 2022-04-07 10:03:20 --> Table 'ci4.auth_tokens' doesn't exist
+#0 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /home/wawan/Documents/AuthCI Master /app/ThirdParty/myth-auth/src/Models/LoginModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/wawan/Documents/AuthCI Master /app/ThirdParty/myth-auth/src/Authentication/LocalAuthenticator.php(93): Myth\Auth\Models\LoginModel->getRememberToken()
+#6 /home/wawan/Documents/AuthCI Master /app/ThirdParty/myth-auth/src/Controllers/AuthController.php(46): Myth\Auth\Authentication\LocalAuthenticator->check()
+#7 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->login()
+#8 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/wawan/Documents/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#12 {main}
+ERROR - 2022-04-07 10:04:43 --> Error connecting to the database: Class 'SQLite3' not found
+CRITICAL - 2022-04-07 10:27:10 --> Trying to get property 'id' of non-object
+#0 /home/wawan/Documents/AuthCI Master /app/ThirdParty/myth-auth/src/Models/UserModel.php(87): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/wawan/Documents/AuthCI Master /app/ThirdParty/myth-auth/src/Controllers/AuthController.php(185): Myth\Auth\Models\UserModel->withGroup()
+#2 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#3 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/wawan/Documents/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#7 {main}
+CRITICAL - 2022-04-07 10:32:34 --> You do not have sufficient permissions to access that page.
+#0 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+#1 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/wawan/Documents/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#5 {main}
+CRITICAL - 2022-04-07 10:42:37 --> You do not have sufficient permissions to access that page.
+#0 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+#1 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/wawan/Documents/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#5 {main}

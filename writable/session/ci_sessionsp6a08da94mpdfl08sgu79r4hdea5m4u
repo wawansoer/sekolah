@@ -1,0 +1,10 @@
+__ci_last_regenerate|i:1654830259;_ci_previous_url|s:43:"http://localhost:8080/kesiswaan/ubahsiswa/4";error|s:312:"<!-- DEBUG-VIEW START 1 SYSTEMPATH/Validation/Views/list.php -->
+	<div class="errors" role="alert">
+		<ul>
+					<li>Format Alamat Domisili Siswa Tidak Sesuai Format</li>
+					<li>Format Alamat orang tua Tidak Sesuai Format</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH/Validation/Views/list.php -->
+";__ci_vars|a:3:{s:5:"error";s:3:"old";s:13:"_ci_old_input";s:3:"old";s:21:"_ci_validation_errors";s:3:"old";}_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:18:{s:14:"csrf_test_name";s:32:"e7710732d5c0aedcadc4421d5a9bafea";s:4:"nama";s:5:"Meong";s:4:"nisn";s:4:"1234";s:3:"nis";s:4:"1234";s:8:"id_kelas";s:1:"6";s:12:"tempat_lahir";s:6:"Dimana";s:13:"tanggal_lahir";s:10:"2021-09-06";s:13:"jenis_kelamin";s:9:"Laki-Laki";s:5:"agama";s:5:"Islam";s:15:"alamat_domisili";s:96:"Jalan Kapten P. Tendean No 41. Kelurahan Baruga, Kecamatan Baruga, Kota Kendari, Provinsi Sultra";s:12:"pos_domisili";s:5:"93119";s:12:"kontak_siswa";s:13:"6281243590903";s:10:"nama_bapak";s:4:"Oppa";s:8:"nama_ibu";s:4:"Omma";s:11:"alamat_ortu";s:94:"Jalan Kapten P. Tendean No 41. Kelurahan Baruga, Kecamatan Baruga, Kota Kendari, Provinsi Sult";s:13:"pos_orang_tua";s:5:"93119";s:15:"kontak_orangtua";s:13:"6281234567890";s:15:"pendapatan_ortu";s:27:"Rp 3.000.000 - Rp 5.000.000";}}_ci_validation_errors|s:155:"a:2:{s:15:"alamat_domisili";s:48:"Format Alamat Domisili Siswa Tidak Sesuai Format";s:11:"alamat_ortu";s:43:"Format Alamat orang tua Tidak Sesuai Format";}";

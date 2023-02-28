@@ -1,0 +1,18 @@
+CRITICAL - 2023-01-09 18:38:08 --> You do not have sufficient permissions to access that page.
+#0 /home/smac5537/repositories/sisfo-sekolah/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 /home/smac5537/repositories/sisfo-sekolah/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('adminWeb/berita', 'before')
+#2 /home/smac5537/repositories/sisfo-sekolah/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/smac5537/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-09 18:38:17 --> You do not have sufficient permissions to access that page.
+#0 /home/smac5537/repositories/sisfo-sekolah/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 /home/smac5537/repositories/sisfo-sekolah/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('adminWeb/berita', 'before')
+#2 /home/smac5537/repositories/sisfo-sekolah/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/smac5537/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-09 18:38:33 --> You do not have sufficient permissions to access that page.
+#0 /home/smac5537/repositories/sisfo-sekolah/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 /home/smac5537/repositories/sisfo-sekolah/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('kurikulum', 'before')
+#2 /home/smac5537/repositories/sisfo-sekolah/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/smac5537/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

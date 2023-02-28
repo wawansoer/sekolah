@@ -1,0 +1,10 @@
+__ci_last_regenerate|i:1650985637;_ci_previous_url|s:53:"http://localhost:8080/calonsiswa/ubahData/22042695059";logged_in|s:1:"1";error|s:268:"<!-- DEBUG-VIEW START 1 SYSTEMPATH/Validation/Views/list.php -->
+	<div class="errors" role="alert">
+		<ul>
+					<li>domisiliSiswa Harus diisi</li>
+					<li>kontakWali Harus diisi</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH/Validation/Views/list.php -->
+";__ci_vars|a:3:{s:5:"error";s:3:"old";s:13:"_ci_old_input";s:3:"old";s:21:"_ci_validation_errors";s:3:"old";}_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:16:{s:14:"csrf_test_name";s:32:"bbab07ea00691d3007af73e998d6c1ba";s:11:"namaLengkap";s:28:"Sutisna Utamasjida Septiawan";s:4:"nisn";s:5:"68989";s:11:"tempatLahir";s:7:"Kendari";s:12:"tanggalLahir";s:10:"1993-05-09";s:12:"jenisKelamin";s:9:"Laki-Laki";s:5:"agama";s:5:"Islam";s:11:"alamatSiswa";s:21:"Jalan Martandu No 97 ";s:8:"noKontak";s:13:"6281243590903";s:11:"sekolahAsal";s:14:"SMAN 5 Kendari";s:8:"namaWali";s:10:"Haris Heda";s:10:"alamatWali";s:56:"Jl. Kapten P. Tendean No 41 Kota Kendari Provinsi Sultra";s:10:"kontakOrtu";s:12:"628114052342";s:9:"agamaWali";s:5:"Islam";s:13:"pekerjaanWali";s:3:"PNS";s:14:"pendapatanWali";s:27:"Rp 1.500.000 - Rp 3.000.000";}}_ci_validation_errors|s:108:"a:2:{s:13:"domisiliSiswa";s:25:"domisiliSiswa Harus diisi";s:10:"kontakWali";s:22:"kontakWali Harus diisi";}";

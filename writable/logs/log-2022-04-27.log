@@ -1,0 +1,21 @@
+CRITICAL - 2022-04-27 12:53:49 --> You must set the database table to be used with your query.
+#0 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /app/Controllers/Calonsiswa.php(398): CodeIgniter\Database\BaseConnection->table()
+#1 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Calonsiswa->prosesubah()
+#2 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#6 {main}
+ERROR - 2022-04-27 12:54:00 --> Table 'ci4.user' doesn't exist
+CRITICAL - 2022-04-27 12:54:00 --> Table 'ci4.user' doesn't exist
+#0 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query()
+#4 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /app/Controllers/Calonsiswa.php(401): CodeIgniter\Database\BaseBuilder->update()
+#5 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Calonsiswa->prosesubah()
+#6 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#10 {main}

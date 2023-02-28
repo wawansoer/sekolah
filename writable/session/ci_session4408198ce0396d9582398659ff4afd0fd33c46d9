@@ -1,0 +1,7 @@
+__ci_last_regenerate|i:1674526513;_ci_previous_url|s:50:"https://smamuhkendari.sch.id/kesiswaan/tambahsiswa";logged_in|s:1:"5";error|s:104:"	<div class="errors" role="alert">
+		<ul>
+					<li>Format Nama Siswa Tidak Valid</li>
+				</ul>
+	</div>
+";__ci_vars|a:3:{s:5:"error";s:3:"old";s:13:"_ci_old_input";s:3:"old";s:21:"_ci_validation_errors";s:3:"old";}_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:19:{s:14:"csrf_test_name";s:32:"9764a9a92013b913486d26b9fe1bef92";s:4:"nama";s:18:"LD.MUHAMMAD SAHRIL";s:4:"nisn";s:10:"0067248268";s:3:"nis";s:4:"9092";s:8:"id_kelas";s:1:"9";s:8:"angkatan";s:9:"2022/2023";s:12:"tempat_lahir";s:7:"KENDARI";s:13:"tanggal_lahir";s:10:"2007-07-04";s:13:"jenis_kelamin";s:1:"1";s:5:"agama";s:5:"Islam";s:15:"alamat_domisili";s:15:"JL. JATI RAYA
+";s:12:"pos_domisili";s:5:"93117";s:12:"kontak_siswa";s:4:"0001";s:10:"nama_bapak";s:12:"LAODE HANAFI";s:8:"nama_ibu";s:14:"WAODE FIRAWATI";s:11:"alamat_ortu";s:1:"-";s:13:"pos_orang_tua";s:4:"0001";s:15:"kontak_orangtua";s:4:"0001";s:15:"pendapatan_ortu";s:1:"1";}}_ci_validation_errors|s:54:"a:1:{s:4:"nama";s:29:"Format Nama Siswa Tidak Valid";}";

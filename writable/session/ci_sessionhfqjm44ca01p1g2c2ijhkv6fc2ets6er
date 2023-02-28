@@ -1,0 +1,11 @@
+__ci_last_regenerate|i:1660316519;_ci_previous_url|s:43:"http://localhost:8080/kesiswaan/tambahsiswa";redirect_url|s:48:"http://localhost:8080/kesiswaan/ubahsiswa/202215";error|s:304:"<!-- DEBUG-VIEW START 1 SYSTEMPATH/Validation/Views/list.php -->
+	<div class="errors" role="alert">
+		<ul>
+					<li>Nama Siswa Tidak Boleh Sama</li>
+					<li>NISN Tidak Boleh Sama</li>
+					<li>NIS Tidak Boleh Sama</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH/Validation/Views/list.php -->
+";__ci_vars|a:3:{s:5:"error";s:3:"old";s:13:"_ci_old_input";s:3:"old";s:21:"_ci_validation_errors";s:3:"old";}_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:19:{s:14:"csrf_test_name";s:32:"bbabc1c821c6e97bb3a5b6a49fd2dbd1";s:4:"nama";s:10:"Test Satu ";s:4:"nisn";s:6:"123124";s:3:"nis";s:6:"123123";s:8:"id_kelas";s:1:"5";s:8:"angkatan";s:20:"-- Pilih Angkatan --";s:12:"tempat_lahir";s:7:"KEndari";s:13:"tanggal_lahir";s:10:"2022-06-07";s:13:"jenis_kelamin";s:1:"1";s:5:"agama";s:5:"Islam";s:15:"alamat_domisili";s:22:"asdasdasdasd asdasdasd";s:12:"pos_domisili";s:5:"12341";s:12:"kontak_siswa";s:11:"61231231251";s:10:"nama_bapak";s:8:"Asdasdas";s:8:"nama_ibu";s:8:"adasdasd";s:11:"alamat_ortu";s:20:"asdasdasdafa a wdasd";s:13:"pos_orang_tua";s:6:"123124";s:15:"kontak_orangtua";s:8:"12412512";s:15:"pendapatan_ortu";s:1:"2";}}_ci_validation_errors|s:130:"a:3:{s:4:"nama";s:27:"Nama Siswa Tidak Boleh Sama";s:4:"nisn";s:21:"NISN Tidak Boleh Sama";s:3:"nis";s:20:"NIS Tidak Boleh Sama";}";

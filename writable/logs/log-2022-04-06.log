@@ -1,0 +1,86 @@
+ERROR - 2022-04-06 12:04:39 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-04-06 12:04:39 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /home/wawan/Documents/AuthCI Master /app/ThirdParty/myth-auth/src/Authentication/LocalAuthenticator.php(156): CodeIgniter\BaseModel->first()
+#5 /home/wawan/Documents/AuthCI Master /app/ThirdParty/myth-auth/src/Authentication/LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate()
+#6 /home/wawan/Documents/AuthCI Master /app/ThirdParty/myth-auth/src/Controllers/AuthController.php(88): Myth\Auth\Authentication\LocalAuthenticator->attempt()
+#7 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptLogin()
+#8 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/wawan/Documents/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#12 {main}
+CRITICAL - 2022-04-06 12:06:45 --> You do not have sufficient permissions to access that page.
+#0 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+#1 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/wawan/Documents/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#5 {main}
+CRITICAL - 2022-04-06 12:10:05 --> You do not have sufficient permissions to access that page.
+#0 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+#1 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/wawan/Documents/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#5 {main}
+CRITICAL - 2022-04-06 12:11:44 --> You do not have sufficient permissions to access that page.
+#0 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+#1 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/wawan/Documents/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#5 {main}
+CRITICAL - 2022-04-06 12:11:45 --> You do not have sufficient permissions to access that page.
+#0 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+#1 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/wawan/Documents/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#5 {main}
+CRITICAL - 2022-04-06 12:11:46 --> You do not have sufficient permissions to access that page.
+#0 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+#1 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/wawan/Documents/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#5 {main}
+CRITICAL - 2022-04-06 12:11:46 --> You do not have sufficient permissions to access that page.
+#0 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+#1 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/wawan/Documents/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#5 {main}
+CRITICAL - 2022-04-06 12:12:11 --> You do not have sufficient permissions to access that page.
+#0 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+#1 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/wawan/Documents/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#5 {main}
+CRITICAL - 2022-04-06 12:12:17 --> You do not have sufficient permissions to access that page.
+#0 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+#1 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/wawan/Documents/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#5 {main}
+CRITICAL - 2022-04-06 12:12:27 --> You do not have sufficient permissions to access that page.
+#0 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+#1 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/wawan/Documents/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#5 {main}
+CRITICAL - 2022-04-06 12:14:23 --> You do not have sufficient permissions to access that page.
+#0 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+#1 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/wawan/Documents/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/wawan/Documents/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#5 {main}

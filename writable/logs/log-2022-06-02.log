@@ -1,0 +1,2 @@
+ERROR - 2022-06-02 09:50:25 --> Email: sendWithSmtp throwed fsockopen(): SSL: Connection reset by peer
+ERROR - 2022-06-02 09:52:13 --> Email: sendWithSmtp throwed fsockopen(): SSL: Connection reset by peer

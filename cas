@@ -1,0 +1,12 @@
+user.email=sutisna@aino.co.id
+user.name=sutisna
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=https://github.com/wawansoer/sisfo-sekolah.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.sisfo-sekolah.remote=origin
+branch.sisfo-sekolah.merge=refs/heads/sisfo-sekolah
+user.name=wawansoer
+user.email=wawansoer@gmail.com

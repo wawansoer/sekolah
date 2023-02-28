@@ -1,0 +1,87 @@
+CRITICAL - 2022-04-15 09:47:14 --> Object of class Myth\Auth\Entities\User could not be converted to string
+#0 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\CalonSiswa->index()
+#1 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#5 {main}
+CRITICAL - 2022-04-15 09:52:44 --> Object of class Myth\Auth\Entities\User could not be converted to string
+#0 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\CalonSiswa->index()
+#1 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#5 {main}
+ERROR - 2022-04-15 13:47:42 --> Unknown column 'auth_groups_users.id' in 'on clause'
+CRITICAL - 2022-04-15 13:47:42 --> Unknown column 'auth_groups_users.id' in 'on clause'
+#0 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /app/Controllers/CalonSiswa.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\CalonSiswa->index()
+#6 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#10 {main}
+ERROR - 2022-04-15 13:48:27 --> Unknown column 'user.id' in 'on clause'
+CRITICAL - 2022-04-15 13:48:27 --> Unknown column 'user.id' in 'on clause'
+#0 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /app/Controllers/CalonSiswa.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\CalonSiswa->index()
+#6 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#10 {main}
+ERROR - 2022-04-15 13:48:28 --> Unknown column 'user.id' in 'on clause'
+CRITICAL - 2022-04-15 13:48:28 --> Unknown column 'user.id' in 'on clause'
+#0 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /app/Controllers/CalonSiswa.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\CalonSiswa->index()
+#6 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#10 {main}
+ERROR - 2022-04-15 13:48:29 --> Unknown column 'user.id' in 'on clause'
+CRITICAL - 2022-04-15 13:48:29 --> Unknown column 'user.id' in 'on clause'
+#0 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /app/Controllers/CalonSiswa.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\CalonSiswa->index()
+#6 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#10 {main}
+ERROR - 2022-04-15 13:48:30 --> Unknown column 'user.id' in 'on clause'
+CRITICAL - 2022-04-15 13:48:30 --> Unknown column 'user.id' in 'on clause'
+#0 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /app/Controllers/CalonSiswa.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\CalonSiswa->index()
+#6 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#10 {main}
+CRITICAL - 2022-04-15 13:49:24 --> Undefined property: stdClass::$id
+#0 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /app/Controllers/CalonSiswa.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\CalonSiswa->index()
+#2 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#6 {main}

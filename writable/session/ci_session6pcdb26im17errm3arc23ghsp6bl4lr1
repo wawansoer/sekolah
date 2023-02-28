@@ -1,0 +1,9 @@
+__ci_last_regenerate|i:1659422452;_ci_previous_url|s:41:"http://localhost:8080/keuangan/periodespp";error|s:240:"<!-- DEBUG-VIEW START 1 SYSTEMPATH/Validation/Views/list.php -->
+	<div class="errors" role="alert">
+		<ul>
+					<li>Format Nama Periode Tidak Dikenali</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH/Validation/Views/list.php -->
+";__ci_vars|a:3:{s:5:"error";s:3:"old";s:13:"_ci_old_input";s:3:"old";s:21:"_ci_validation_errors";s:3:"old";}_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:6:{s:14:"csrf_test_name";s:32:"73e3c11605b8f96172b37e3376052e18";s:11:"namaPeriode";s:5:"asdfg";s:11:"awalPeriode";s:10:"2022-08-01";s:12:"akhirPeriode";s:10:"2022-08-31";s:6:"jumlah";s:3:"124";s:10:"keterangan";s:6:"asdfgh";}}_ci_validation_errors|s:67:"a:1:{s:11:"namaPeriode";s:34:"Format Nama Periode Tidak Dikenali";}";

@@ -1,0 +1,47 @@
+CRITICAL - 2022-06-16 00:53:56 --> Invalid file: tatausaha/layout.php
+#0 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#2 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /app/Controllers/Tatausaha.php(19): view()
+#4 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Tatausaha->index()
+#5 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#9 {main}
+CRITICAL - 2022-06-16 00:58:15 --> Undefined variable: guru
+#0 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /app/Views/tatausaha/guru/guru.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/View/View.php(210): include('/home/wawan/Doc...')
+#2 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /app/Controllers/Tatausaha.php(27): view()
+#5 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Tatausaha->guru()
+#6 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#10 {main}
+CRITICAL - 2022-06-16 01:00:22 --> Undefined variable: guru
+#0 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /app/Views/tatausaha/guru/guru.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/View/View.php(210): include('/home/wawan/Doc...')
+#2 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /app/Controllers/Tatausaha.php(28): view()
+#5 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Tatausaha->guru()
+#6 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#10 {main}
+CRITICAL - 2022-06-16 01:00:27 --> Undefined variable: kelas
+#0 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /app/Views/tatausaha/guru/tambahguru.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/View/View.php(210): include('/home/wawan/Doc...')
+#2 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /app/Controllers/Tatausaha.php(37): view()
+#5 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Tatausaha->tambahguru()
+#6 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/wawan/Documents/CI4/masterSekolah/AuthCI Master /vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#10 {main}

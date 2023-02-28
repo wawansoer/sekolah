@@ -1,0 +1,84 @@
+CRITICAL - 2022-04-02 13:25:37 --> You do not have sufficient permissions to access that page.
+#0 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+#1 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/wawan/Documents/belajar-auth/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#5 {main}
+CRITICAL - 2022-04-02 13:27:19 --> You do not have sufficient permissions to access that page.
+#0 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+#1 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/wawan/Documents/belajar-auth/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#5 {main}
+CRITICAL - 2022-04-02 13:27:20 --> You do not have sufficient permissions to access that page.
+#0 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+#1 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/wawan/Documents/belajar-auth/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#5 {main}
+CRITICAL - 2022-04-02 13:27:20 --> You do not have sufficient permissions to access that page.
+#0 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+#1 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/wawan/Documents/belajar-auth/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#5 {main}
+CRITICAL - 2022-04-02 13:27:21 --> You do not have sufficient permissions to access that page.
+#0 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+#1 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/wawan/Documents/belajar-auth/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#5 {main}
+CRITICAL - 2022-04-02 13:27:21 --> You do not have sufficient permissions to access that page.
+#0 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+#1 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/wawan/Documents/belajar-auth/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#5 {main}
+CRITICAL - 2022-04-02 13:27:21 --> You do not have sufficient permissions to access that page.
+#0 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+#1 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/wawan/Documents/belajar-auth/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#5 {main}
+CRITICAL - 2022-04-02 13:27:21 --> You do not have sufficient permissions to access that page.
+#0 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+#1 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/wawan/Documents/belajar-auth/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#5 {main}
+CRITICAL - 2022-04-02 13:27:21 --> You do not have sufficient permissions to access that page.
+#0 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+#1 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/wawan/Documents/belajar-auth/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#5 {main}
+CRITICAL - 2022-04-02 13:27:22 --> You do not have sufficient permissions to access that page.
+#0 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+#1 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/wawan/Documents/belajar-auth/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#5 {main}
+CRITICAL - 2022-04-02 13:28:12 --> You do not have sufficient permissions to access that page.
+#0 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+#1 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/wawan/Documents/belajar-auth/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#5 {main}
+CRITICAL - 2022-04-02 14:37:32 --> You do not have sufficient permissions to access that page.
+#0 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+#1 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/wawan/Documents/belajar-auth/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/wawan/Documents/belajar-auth/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#5 {main}

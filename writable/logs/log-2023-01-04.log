@@ -1,0 +1,5 @@
+ERROR - 2023-01-04 18:51:51 --> Cannot delete or update a parent row: a foreign key constraint fails (`u1672664_sekolah`.`siswa`, CONSTRAINT `siswa_FK` FOREIGN KEY (`id_kelas`) REFERENCES `kelas` (`id_kelas`))
+ERROR - 2023-01-04 18:51:59 --> Cannot delete or update a parent row: a foreign key constraint fails (`u1672664_sekolah`.`siswa`, CONSTRAINT `siswa_FK` FOREIGN KEY (`id_kelas`) REFERENCES `kelas` (`id_kelas`))
+ERROR - 2023-01-04 18:52:22 --> Cannot delete or update a parent row: a foreign key constraint fails (`u1672664_sekolah`.`siswa`, CONSTRAINT `siswa_FK` FOREIGN KEY (`id_kelas`) REFERENCES `kelas` (`id_kelas`))
+ERROR - 2023-01-04 18:52:40 --> Cannot delete or update a parent row: a foreign key constraint fails (`u1672664_sekolah`.`siswa`, CONSTRAINT `siswa_FK` FOREIGN KEY (`id_kelas`) REFERENCES `kelas` (`id_kelas`))
+ERROR - 2023-01-04 18:53:34 --> Cannot delete or update a parent row: a foreign key constraint fails (`u1672664_sekolah`.`siswa`, CONSTRAINT `siswa_FK` FOREIGN KEY (`id_kelas`) REFERENCES `kelas` (`id_kelas`))

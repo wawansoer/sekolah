@@ -1,0 +1,11 @@
+__ci_last_regenerate|i:1657964829;_ci_previous_url|s:42:"http://localhost:8080/tatausaha/berkasguru";error|s:321:"<!-- DEBUG-VIEW START 1 SYSTEMPATH/Validation/Views/list.php -->
+	<div class="errors" role="alert">
+		<ul>
+					<li>Guru/Tendik Tidak Dikenali</li>
+					<li>Nama Berkas Tidak Dikenali</li>
+					<li>Format file berkas tidak dikenali</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH/Validation/Views/list.php -->
+";__ci_vars|a:3:{s:5:"error";s:3:"old";s:13:"_ci_old_input";s:3:"old";s:21:"_ci_validation_errors";s:3:"old";}_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:3:{s:14:"csrf_test_name";s:32:"e8cf98e04fc921855c59f4db21f25ae7";s:7:"id_guru";s:23:"-- Pilih Guru/Tendik --";s:8:"idBerkas";s:23:"-- Pilih Nama Berkas --";}}_ci_validation_errors|s:162:"a:3:{s:7:"id_guru";s:26:"Guru/Tendik Tidak Dikenali";s:8:"idBerkas";s:26:"Nama Berkas Tidak Dikenali";s:10:"fileBerkas";s:33:"Format file berkas tidak dikenali";}";

@@ -1,0 +1,6 @@
+__ci_last_regenerate|i:1673835301;_ci_previous_url|s:55:"https://smamuhkendari.sch.id/kurikulum/tambahpengumuman";logged_in|s:1:"4";error|s:114:"	<div class="errors" role="alert">
+		<ul>
+					<li>berkas does not have a valid mime type.</li>
+				</ul>
+	</div>
+";__ci_vars|a:3:{s:5:"error";s:3:"old";s:13:"_ci_old_input";s:3:"old";s:21:"_ci_validation_errors";s:3:"old";}_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:4:{s:14:"csrf_test_name";s:32:"12166aff0efde7991333de4520bdeab1";s:10:"pengumuman";s:33:"SK Pembagian Tugas Semester Genap";s:9:"deskripsi";s:66:"<p>SK Pembagian Tugas Semester genap tahun pelajaran 2022/2023</p>";s:7:"keyword";s:2:"SK";}}_ci_validation_errors|s:66:"a:1:{s:6:"berkas";s:39:"berkas does not have a valid mime type.";}";
