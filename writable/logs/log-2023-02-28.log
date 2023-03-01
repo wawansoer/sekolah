@@ -1,0 +1,12 @@
+ERROR - 2023-02-28 20:56:11 --> Error connecting to the database: Access denied for user '****'@'180.247.143.9' (using password: YES)
+CRITICAL - 2023-02-28 20:56:11 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'180.247.143.9' (using password: YES)
+#0 /home/wawan/Documents/Git/sekolah/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/wawan/Documents/Git/sekolah/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /home/wawan/Documents/Git/sekolah/app/Controllers/Home.php(26): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/wawan/Documents/Git/sekolah/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /home/wawan/Documents/Git/sekolah/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/wawan/Documents/Git/sekolah/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/wawan/Documents/Git/sekolah/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/wawan/Documents/Git/sekolah/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/wawan/Doc...')
+#8 {main}
